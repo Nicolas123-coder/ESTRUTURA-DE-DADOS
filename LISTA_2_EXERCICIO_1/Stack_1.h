@@ -2,6 +2,7 @@
 #define STACK_1_H
 #define TAMANHO 100
 
+// NICOLAS DE BARROS - 32070837
 // ARQUIVO .H
 
 typedef struct StaticStack
