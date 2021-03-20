@@ -1,7 +1,7 @@
 #include "Stack_1.h"
 #include <string.h>
 
-
+//NICOLAS DE BARROS - 32070837
 int IsEmpty(pilha* pilha_var)
 {
 	return (*pilha_var).count == 0;
@@ -17,7 +17,7 @@ int push(pilha* pilha_var, char elem)
 
 	// REVER O PUSH /// 
 
-	(*pilha_var).values[(*pilha_var).count] = elem;        // ir· add o elemento (elem)
+	(*pilha_var).values[(*pilha_var).count] = elem;        // ir√° add o elemento (elem)
 	(*pilha_var).count++;
 
 	return 0;
